@@ -1,0 +1,175 @@
+body {
+    background-color: rgb(226, 240, 235);
+    font-family: "Open Sans", Arial;
+  }
+  
+  form {
+    line-height: 27px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    border-left-color:blue;
+    border-left-width: 1%;
+  }
+  input[type=number]{
+  
+      width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    border-left-color:blue;
+    border-left-width: 1%;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  
+  }
+      
+  footer {
+    background-color: blue;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 100%;
+    position: relative;
+}
+
+#about {
+    font-family: arial, sans-serif;
+    color: white;
+    padding: 10px;
+    float:right;
+    text-align: center;
+    width: 100px;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+}
+#about img{
+   box-align:left;
+}
+  
+  input[type=submit] {
+    background-color: #3509d4;
+    color: white;
+    padding: 12px 40px;
+    border: none;
+    float:right;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #2a056d;
+  }
+  
+  #main {
+    background-color: rgba(255,255,255,0.8);
+    text-align: center;
+    height: 80vh;
+    border-radius: 15px;
+    margin: 2% 10%;
+    overflow: auto;
+  }
+  
+  #story {
+    padding: 0 3%;
+  }
+  
+  #top {
+    background-color: rgb(255, 255, 255);
+    margin: 2% 20%;
+    border-radius: 15px;
+  }
+ #about h4{
+     float:left;
+     font-weight: bold;
+     font-style: italic;
+     padding-top: 10px;
+     font-size: large;
+ }
+ #close {
+    float:right;
+    
+    padding:2px 5px;
+    background:#ccc;
+}
+#aligning img{
+    float:left;
+    padding-left:82px;
+    padding-right:20px;
+    padding-top:20px;
+    padding-bottom:20px;
+
+
+}
+
+#close:hover {
+    float:right;
+   
+    padding:2px 5px;
+    background:#ccc;
+    color:#fff;
+}
+  #about img{
+      float:left;
+      border-radius: 4px;
+      padding-right: 20px;
+      padding-top: 20px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+  }
+  .italics {
+    font-style: italic;
+  }
+  
+  .word {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  .box {
+    width: 400px;
+    height: auto;
+    background-color: rgba(19, 20, 22, 0.199);
+    color: rgba(0, 1, 2, 0.938);
+    padding: 20px;
+    position: relative;
+    margin: auto 200px;
+    border-radius: 5px;
+  }
+  .box.arrow-top {
+    margin-top: 40px;
+  }
+   
+ 
+  .box.arrow-left:after {
+    content: " ";
+    position: absolute;
+    left: -15px;
+    top: 15px;
+    
+    border-top: 15px solid transparent;
+    border-right: 15px solid rgba(19, 20, 22, 0.199);
+    border-left: none;
+    border-bottom: 15px solid transparent;
+  }
+  @media only screen and (min-width:240px) and (max-width: 768px){
+    .box{
+        display: block;
+        float: none;
+        padding:50px;
+    }    
+}

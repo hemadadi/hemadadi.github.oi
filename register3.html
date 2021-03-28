@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>Form a Story</title>
+  </head>
+  <body>
+    <section id="top">
+        <footer id="about">
+            
+           <span id='close' onclick='this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode); return false;'>x</span>
+      <img src="aweteck logo.png" alt="aweteck log" height="40px" width="40px">
+       <h4>Hey Hi... Let's Chat.</h4>
+        </footer>
+    <br><br><br><br>
+    <br>
+    <div id="aligning">
+   <img src="chat support.png" height="100px">
+    <div class=" box arrow-left">
+        <strong>Greetings from Awetecks,</strong><br>Our customer team is temporarily offline.<br>
+        Please drop your query and we will reach you back soon with to assist you...
+      </div>
+    </div>
+    
+      <section id="main">
+      <!--Add your form below:-->
+      <form action="submit.html" method="GET">
+         
+        <input type="text" id="fname" name="Full Name" placeholder="Full Name">
+  
+
+    
+        <input type="text" id="Email" name="Email" placeholder="Email">
+    
+        <input type="number" id="phonenumber" name="Phone Number" placeholder="Phone Number">
+       
+        <textarea id="subject" name="subject" placeholder="Enter your message..." style="height:200px"></textarea>
+    
+        <input type="submit" value="Send message">
+       
+      </form>
+    </section>
+  </body>
+</html>
